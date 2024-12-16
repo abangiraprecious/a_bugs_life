@@ -3,15 +3,41 @@
     a {
         color: rgb(0, 113, 133);
     }
+
+    .header {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .price {
+        color: rgb(0, 118, 0);
+        font-weight: bold;
+    }
+
+    button {
+        width: 120px;
+        height: 30px;
+        border-radius: 15px;
+        border: none;
+    }
+
+    .cart {
+        margin-right: 10px;
+        background-color: rgb(255, 216, 20);
+    }
+
+    .buy {
+        background-color: rgb(255,164,28);
+    }
 </style>
 
 <a href = "https://www.amazon.com/">Back to Amazon</a>
 
-<p>
+<p class="header">
     Nike Black Running Shoes
 </p>
 
-<p>
+<p class = price>
     $39 - in stock.
 </p>
 
@@ -19,10 +45,10 @@
     Free delivery tomorrow.
 </p>
 
-<button>
+<button class="cart">
     Add to Cart
 </button>
 
-<button>
+<button class="buy">
     Buy now
 </button>
