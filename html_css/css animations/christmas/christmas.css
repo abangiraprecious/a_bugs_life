@@ -24,14 +24,14 @@ p[b] {
 }
 
 p[c] {
-    top: 124px;
+    top: 134px;
     border-bottom-color:darkred;
 }
 
 div {
     width: 20px;
     height: 50px;
-    background: brown;
+    background: rgb(46, 18, 18);
     position: absolute;
-    top: 204px;
+    top: 224px;
 }
