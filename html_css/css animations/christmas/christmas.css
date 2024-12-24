@@ -1,5 +1,25 @@
-div {
-    width: 100px;
-    height: 100px; /*basically starting off with a square*/
-    
+body {
+    background: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p {
+    width: 0px;
+    height: 0px; /*basically starting off with a square*/
+    /* background: red; */
+    border-right: 125px solid transparent;
+    border-left: 125px solid transparent;
+    border-bottom: 100px solid red;
+    position: relative;
+    top: absolute;
+}
+
+p[a] {
+    top: 34px;
+}
+
+p[b] {
+    top: 84px;
+    border-bottom: ;
 }
