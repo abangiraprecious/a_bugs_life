@@ -46,13 +46,42 @@ p[c] {
     top: 550px;
 }
 
-.star {
-    height: 0;
+/* .star {
+    /* position: absolute; */
+    display: block;
+    position: relative;
+    color: gold;
     width: 0;
-    border-left-width: 20px;
-    border-right-width: 20px;
-    border-bottom-width: 20px;
-    background: gold;
+    height: 0;
+    border-right: 100px solid transparent;
+    border-left: 100px solid transparent;
+    border-bottom: 70px solid gold;
+    transform: rotate(35deg);
+    top: 34px
+} */
+
+ /* .star:after {
+    border-bottom: 80px solid gold;
+    border-right: 30px solid transparent;
+    border-left: 30px solid transparent;
     position: absolute;
-    top: 20px;
-}
+    content: '';
+    width: 0;
+    height: 0;
+    top: -45px;
+    left: -65px;
+    display: block;
+    transform: rotate(-35deg);
+} */
+
+/* .star:before {
+    border-bottom: 70px solid gold;
+    border-right: 100px solid transparent;
+    border-left: 100px solid transparent;
+    position: absolute;
+    top: 3px;
+    left: 105px;
+    width: 0;
+    height: 0;
+    transform: rotate(-100deg); 
+} */
