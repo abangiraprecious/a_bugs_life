@@ -10,7 +10,7 @@ p {
     /* background: red; */
     border-right: 125px solid transparent;
     border-left: 125px solid transparent;
-    border-bottom: 100px solid red;
+    border-bottom: 100px solid darkred;
     position: absolute;
 }
 
@@ -20,5 +20,10 @@ p[a] {
 
 p[b] {
     top: 84px;
-    border-bottom: ;
+    border-bottom-color: darkgreen;
+}
+
+p[c] {
+    top: 124px;
+    border-bottom-color:darkred;
 }
