@@ -11,8 +11,7 @@ p {
     border-right: 125px solid transparent;
     border-left: 125px solid transparent;
     border-bottom: 100px solid red;
-    position: relative;
-    top: absolute;
+    position: absolute;
 }
 
 p[a] {
