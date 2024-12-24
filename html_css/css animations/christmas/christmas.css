@@ -45,3 +45,14 @@ p[c] {
     position: absolute;
     top: 550px;
 }
+
+.star {
+    height: 0;
+    width: 0;
+    border-left-width: 20px;
+    border-right-width: 20px;
+    border-bottom-width: 20px;
+    background: gold;
+    position: absolute;
+    top: 20px;
+}
