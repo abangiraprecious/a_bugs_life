@@ -9,30 +9,39 @@ p {
     width: 0px;
     height: 0px; /*basically starting off with a square*/
     /* background: red; */
-    border-right: 385px solid transparent;
-    border-left: 385px solid transparent;
-    border-bottom: 300px solid #0F3D1A;
+    /* border-right: 385px solid transparent; */
+    /* border-left: 385px solid transparent; */
+    /* border-bottom: 300px solid #0F3D1A; */
     position: absolute;
 }
 
 p[a] {
+    border-right: 265px solid transparent;
+    border-left: 265px solid transparent;
+    border-bottom: 300px solid #0F3D1A;
     top: 30px;
 }
 
 p[b] {
-    top: 150px;
-    border-bottom-color: #013220:
+    border-right: 335px solid transparent;
+    border-left: 335px solid transparent;
+    border-bottom: 300px solid #0F3D1A;
+    top: 140px;
+    border-bottom-color: #013220;
 }
 
 p[c] {
-    top: 270px;
+    border-right: 375px solid transparent;
+    border-left: 375px solid transparent;
+    border-bottom: 300px solid #0F3D1A;
+    top: 250px;
     border-bottom-color:#0F3D1A;
 }
 
 div {
-    width: 20px;
-    height: 50px;
+    width: 40px;
+    height: 70px;
     background: rgb(46, 18, 18);
     position: absolute;
-    top: 224px;
+    top: 550px;
 }
