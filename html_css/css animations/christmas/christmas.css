@@ -38,7 +38,7 @@ p[c] {
     border-bottom-color:#0F3D1A;
 }
 
-div {
+.trunk {
     width: 40px;
     height: 70px;
     background: rgb(46, 18, 18);
