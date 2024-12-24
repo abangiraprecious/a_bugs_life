@@ -1,0 +1,1 @@
+Basic CSS animations for practice. 
