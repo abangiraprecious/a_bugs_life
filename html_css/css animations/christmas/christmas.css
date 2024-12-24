@@ -27,3 +27,11 @@ p[c] {
     top: 124px;
     border-bottom-color:darkred;
 }
+
+div {
+    width: 20px;
+    height: 50px;
+    background: brown;
+    position: absolute;
+    top: 204px;
+}
