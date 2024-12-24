@@ -1,31 +1,32 @@
 body {
-    background: green;
+    /* background: green; */
     display: flex;
     justify-content: center;
     align-items: center;
+    background: radial-gradient(circle at 30% 30%, #B22222, #228B22, #000000);
 }
 p {
     width: 0px;
     height: 0px; /*basically starting off with a square*/
     /* background: red; */
-    border-right: 125px solid transparent;
-    border-left: 125px solid transparent;
-    border-bottom: 100px solid darkred;
+    border-right: 385px solid transparent;
+    border-left: 385px solid transparent;
+    border-bottom: 300px solid #0F3D1A;
     position: absolute;
 }
 
 p[a] {
-    top: 34px;
+    top: 30px;
 }
 
 p[b] {
-    top: 84px;
-    border-bottom-color: darkgreen;
+    top: 150px;
+    border-bottom-color: #013220:
 }
 
 p[c] {
-    top: 134px;
-    border-bottom-color:darkred;
+    top: 270px;
+    border-bottom-color:#0F3D1A;
 }
 
 div {
