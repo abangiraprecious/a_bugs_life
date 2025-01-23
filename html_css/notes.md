@@ -7,4 +7,4 @@ What is it?
 
 ### CSS
 - cascading style sheets
-- used to style our websites, html elements.
+- used to style our websites, html elements
