@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>Get Element by ID</h2>
+
+        <p id="click-change">Me before the click</p>
+
+        <button type="button" onclick = 'document.getElementById("click-change").innerHTML = "Me after the Click"'>Click Me</button> <!--JS accepts both double and single quotes-->
+
+        <!--CHANGING THE HTML ATRIBUTE VALUES-->
+        <h2>Change SRC</h2>
+
+        <p>So what is going to happen here is JS will change the value of the src attribute of an image.</p>
+
+        <button onclick="document.getElementById('myImage').src='on.gif'">Light On</button>
+
+        <img id="myImage" src="on.gif" style="width:100px">
+
+        <button onclick="document.getElementById('myImage').src='off.gif'">Turn off the light</button>
+
+        <h2>Change HTML Styles</h2>
+        <p id="change-style">JS can change the style of an HTML element</p>
+    </body>
+</html>
