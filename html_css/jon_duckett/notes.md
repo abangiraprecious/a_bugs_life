@@ -95,3 +95,6 @@ Layout - How to control where the different elements are positioned on the scree
 
  ### Doctypes
  - This is done to tell a browser which version of HTML the page us using.
+
+ ### Meta Data 
+ The meta elementlives inside the head element and contains informaion about that web page...it has description, keywords, robots.
