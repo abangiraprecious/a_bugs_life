@@ -92,3 +92,6 @@ Layout - How to control where the different elements are positioned on the scree
 
  ##### Line Breaks & Horizontal Rules
  <br /> & <hr />
+
+ ### Doctypes
+ - This is done to tell a browser which version of HTML the page us using.
