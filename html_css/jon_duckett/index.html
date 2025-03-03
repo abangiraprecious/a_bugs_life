@@ -120,6 +120,52 @@
 
 
     <h2>Forms</h2>
+    <form action="example.com/login.php">
+        <p>Username: 
+            <input type="text" name="username" size="15" maxlength="30"/> <!--css should be used to do the sizing-->
+        </p>
+        <p>Password:
+            <input type="password" name="password" size="40">
+        </p>
+        <p>
+            <textarea name="comments" cols="50" rows="4" id="">Put hiya</textarea>
+        </p>
+    </form>
+
+    <h4>Radio Button</h4>
+    <p>Please select you favorite whatever</p>
+    <br />
+    <input type="radio" name="genre" value="rock" checked="checked" /> Rock
+    <input type="radio" name="genre" value="pop"/> Pop
+    <input type="checkbox" name="genre" value="pop"/> Pop
+
+    <h4>Drop Down List Box</h4>
+    <form action="">
+        <p>gender</p>
+        <select name="gender" id="">
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+        </select>
+    </form>
+
+    <form action="">
+        <p>Select more than one</p>
+        <select name="instuments" size="3" multiple="multiple">
+            <option value="first" selected="selected">First</option>
+            <option value="second">Second</option>
+        </select>
+    </form>
+
+    <form action="">
+        <p>Upload file</p>
+        <input type="file" name="img" /> <br />
+        <input type="submit" value="upload">
+    </form>
+
+    <h4>Imagge button is a thing too</h4>
     
+
+    <h4>Form validation</h4>
+    <p>just add required="required</p>
     </body>
 </html>
